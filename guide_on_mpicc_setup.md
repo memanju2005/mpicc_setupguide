@@ -77,7 +77,7 @@ Save the file in your working directory.
 mpicc hello_mpi.c -o hello_mpi
 ```
 
-- **Windows (MS-MPI):**
+ **Windows (MS-MPI):**
 Open the **Developer Command Prompt for Visual Studio** or **MS-MPI Command Prompt**, navigate to your source directory, then run:
 
 ```
@@ -131,7 +131,7 @@ There are not enough slots available in the system to satisfy the <number_of_pro
 mpiexec --oversubscribe -np 8 ./hello_mpi
 ```
 
-    - **Windows example:**
+- **Windows example:**
 
 ```
 mpiexec --oversubscribe -np 8 hello_mpi.exe
